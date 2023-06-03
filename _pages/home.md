@@ -4,17 +4,7 @@ permalink: /home/
 title: Home
 ---
 
-<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-  <div class="window-container">
-    <div class="grid-row">
-      <button class="window-button" style="width: 200px; height: 100px; background-color: #eaeaea; font-size: 18px; font-weight: bold;">Button 1</button>
-      <button class="window-button" style="width: 200px; height: 100px; background-color: #eaeaea; font-size: 18px; font-weight: bold;">Button 2</button>
-    </div>
-    <div class="grid-row">
-      <button class="window-button" style="width: 200px; height: 100px; background-color: #eaeaea; font-size: 18px; font-weight: bold;">Button 3</button>
-      <button class="window-button" style="width: 200px; height: 100px; background-color: #eaeaea; font-size: 18px; font-weight: bold;">Button 4</button>
-    </div>
-  </div>
-</div>
+Welcome to My Website, this site serves to host my personal projects, and act as an online Resume & Portfolio! 
+My name is Stefan Randow, I am a Student at Metropolitan State University, where I study Math & Physics. Programming has become something of a hobby of mine lately, I have made Space Weather program, an 'Auto-Tweeter' and my latest project is this website.
 
 
