@@ -12,6 +12,7 @@ permalink: /resume/
     Digital Marketing Campaigns, Call Tracking & VOIP Implementation. Successfully identified a critical
     error on a VOIP product, escalated the issue to product management, and saved our portfolio from losing
     potentially thousands of dollars. Managed issues, and issue tracking via Jira.
+    
    
  - **IT Project Coordinator**
    - Bailiwick
@@ -21,6 +22,7 @@ permalink: /resume/
     communication. Developed and tracked project issues, billed customers, validated work orders
     and coordinated subcontractors. Excelled in learning and using Excel, Service Now, and
     FieldPoint.
+
 
 - **Security Coordinator**
   - Belcom
@@ -32,6 +34,7 @@ permalink: /resume/
     daily and weekly reports on staffing updates, client updates, inspections updates, and the performance of
     our employees.
    
+   
 - **Security Supervisor**
   - Belcom
   - *Sep 2020 - Mar 2021*
@@ -41,6 +44,7 @@ permalink: /resume/
     communication between clients, the company, and resolving conflicts as they appeared. Successfully led
     and implemented a turnover reduction strategy, ensuring quality staffing and high morale even in the face
     of a global pandemic.
+    
     
 - **Security Team Lead**
   - Belcom
