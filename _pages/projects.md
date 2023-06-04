@@ -14,6 +14,6 @@ Here are some recent projects that I have been developing:
   
   This is a python program that I have containerized for Docker. By modifying some code from The Space Weather Interface, this program is capable of generating unique tweets based off of the current date, and the current space weather. You can click [here](https://github.com/StefanRandow/python-tweeter/archive/refs/heads/main.zip) to download the archive.
  
-- [This Website](https://github.com/StefanRandow/stefanrandow.github.io)
+- [StefanRandow.github.io](https://github.com/StefanRandow/stefanrandow.github.io)
   
   This website is also one of my projects, mostly to host an online version of my Resume, but I suspect I'll learn some HTML and CSS along the way :)
