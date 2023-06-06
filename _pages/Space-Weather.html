@@ -8,10 +8,6 @@ title: Interplanetary Space Weather Data
 <html>
 <head>
   <title>Proton Values</title>
-
-</head>
-<body>
-  
   <script src="./javascripts/protonData.js"></script>
   <script>
   async function getProtonValues() {
@@ -19,43 +15,31 @@ title: Interplanetary Space Weather Data
     const { s, speed, density, temperature } = await getProton();
 
     if (s == 0 || s == 1) {
-      // Create a new <span> element
-      const speedElement = document.createElement('span');
-      speedElement.id = 'speedValue';
-      speedElement.textContent = speed;
+      // Update the paragraph with the speed value
+      document.getElementById('speedParagraph').textContent = `The Current Solar Wind Speed is ${speed}`;
       
-      const densityElement = document.createElement('span');
-      densityElement.id = 'densityValue';
-      densityElement.textContent = density;
+      // Update the paragraph with the density value
+      document.getElementById('densityParagraph').textContent = `The Current Solar Wind Density is ${density}`;
       
-      const tempElement = document.createElement('span');
-      tempElement.id = 'tempValue';
-      tempElement.textContent = temperature;
-      
-    else {
-      const errorSpeedElement = document.createElement('span');
-      errorSpeedElement.id = 'speedValue';
-      errorSpeedElement.textContent = 'Error, Bad Data';
-      
-      const errorDensityElement = document.createElement('span');
-      errorDensityElement.id = 'densityValue';
-      errorDensityElement.textContent = 'Error, Bad Data';
-      
-      const errorTempElement = document.createElement('span');
-      errorTempElement.id = 'tempValue';
-      errorTempElement.textContent = 'Error, Bad Data';
-      }
+      // Update the paragraph with the temperature value
+      document.getElementById('temperatureParagraph').textContent = `The Current Solar Wind Temperature is ${temperature}`;
+    } else {
+      // Update the paragraph with an error message
+      document.getElementById('speedParagraph').textContent = 'Error, Bad Data';
+      document.getElementById('densityParagraph').textContent = 'Error, Bad Data';
+      document.getElementById('temperatureParagraph').textContent = 'Error, Bad Data';
     }
   }
 
-  // Call the function to populate the value
+  // Call the function to populate the values
   getProtonValues();
-  setInterval(printProtonValues, 60000);
-</script>
-  
+  setInterval(getProtonValues, 60000);
+  </script>
+</head>
+<body>
   <h1>Proton Values</h1>
-  <p> The Current Solar Wind Speed is <span id='speedValue'></span>
-  
+  <p id="speedParagraph">The Current Solar Wind Speed is</p>
+  <p id="densityParagraph">The Current Solar Wind Density is</p>
+  <p id="temperatureParagraph">The Current Solar Wind Temperature is</p>
 </body>
 </html>
-
