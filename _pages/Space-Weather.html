@@ -8,6 +8,10 @@ title: Interplanetary Space Weather Data
 <html>
 <head>
   <title>Proton Values</title>
+
+</head>
+<body>
+  
   <script src="./javascripts/protonData.js"></script>
   <script>
   async function getProtonValues() {
@@ -48,9 +52,7 @@ title: Interplanetary Space Weather Data
   getProtonValues();
   setInterval(printProtonValues, 60000);
 </script>
-
-</head>
-<body>
+  
   <h1>Proton Values</h1>
   <p> The Current Solar Wind Speed is <span id='speedValue'></span>
   
