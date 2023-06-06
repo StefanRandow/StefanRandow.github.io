@@ -10,35 +10,53 @@ title: Interplanetary Space Weather Data
   <title>Proton Values</title>
   <script src="./javascripts/protonData.js"></script>
   <script>
-    async function getProtonValues() {
-      // Call the getProton function to retrieve the values
-      const { s, speed, density, temperature } = await getProton();
+  async function getProtonValues() {
+    // Call the getProton function to retrieve the values
+    const { s, speed, density, temperature } = await getProton();
 
-      if (s == 0 || s == 1) {
-        // Update HTML elements with the values
-        document.getElementById("error-level").textContent = `Error level: ${s}`;
-        document.getElementById("density").textContent = `Density: ${density}`;
-        document.getElementById("wind-speed").textContent = `Wind Speed: ${speed}`;
-        document.getElementById("temperature").textContent = `Temperature: ${temperature}`;
-      } else {
-        // Update HTML element with error message
-        document.getElementById("error-level").textContent = "Error level is greater than 1, please try again later!";
+    if (s == 0 || s == 1) {
+      // Create a new <span> element
+      const spanElement = document.createElement('span');
+      spanElement.id = 'speedValue';
+      spanElement.textContent = speed;
+      
+      const spanElement = document.createElement('span');
+      spanElement.id = 'densityValue';
+      spanElement.textContent = density;
+      
+      const spanElement = document.createElement('span');
+      spanElement.id = 'tempValue';
+      spanElement.textContent = temperature;
+      
+    else {
+      const spanElement = document.createElement('span');
+      spanElement.id = 'speedValue';
+      spanElement.textContent = 'Error, Bad Data';
+      
+      const spanElement = document.createElement('span');
+      spanElement.id = 'densityValue';
+      spanElement.textContent = 'Error, Bad Data';
+      
+      const spanElement = document.createElement('span');
+      spanElement.id = 'tempValue';
+      spanElement.textContent = 'Error, Bad Data';
       }
     }
+  }
 
-    // Call the printProtonValues function initially
-    printProtonValues();
+  // Call the function to populate the value
+  getProtonValues();
+  setInterval(printProtonValues, 60000);
+</script>
 
-    // Schedule the printProtonValues function to run every minute
-    setInterval(printProtonValues, 60000);
-  </script>
+<!-- Example usage of the speed value -->
+<p>The speed is: <span class="speed"></span></p>
+<p>Another instance of speed: <span class="speed"></span></p>
+
 </head>
 <body>
   <h1>Proton Values</h1>
-  <div class="Data" markdown="1">
-    [error_level]: ${s}
-  The current solarwind error level is ${s}
-  </div>
+  <p> The Current Solar Wind Speed is <span id='speedValue'></span>
   
 </body>
 </html>
