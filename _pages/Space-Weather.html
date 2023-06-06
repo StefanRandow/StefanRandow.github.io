@@ -10,7 +10,7 @@ title: Interplanetary Space Weather Data
   <title>Proton Values</title>
   <script src="./javascripts/protonData.js"></script>
   <script>
-    async function printProtonValues() {
+    async function getProtonValues() {
       // Call the getProton function to retrieve the values
       const { s, speed, density, temperature } = await getProton();
 
@@ -35,8 +35,9 @@ title: Interplanetary Space Weather Data
 </head>
 <body>
   <h1>Proton Values</h1>
-  <div class="tip" markdown="1">Have **fun!**
-  
+  <div class="Data" markdown="1">
+    [error_level]: ${s}
+  The current solarwind error level is ${s}
   </div>
   
 </body>
