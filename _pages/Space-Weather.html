@@ -16,30 +16,30 @@ title: Interplanetary Space Weather Data
 
     if (s == 0 || s == 1) {
       // Create a new <span> element
-      const spanElement = document.createElement('span');
-      spanElement.id = 'speedValue';
-      spanElement.textContent = speed;
+      const speedElement = document.createElement('span');
+      speedElement.id = 'speedValue';
+      speedElement.textContent = speed;
       
-      const spanElement = document.createElement('span');
-      spanElement.id = 'densityValue';
-      spanElement.textContent = density;
+      const densityElement = document.createElement('span');
+      densityElement.id = 'densityValue';
+      densityElement.textContent = density;
       
-      const spanElement = document.createElement('span');
-      spanElement.id = 'tempValue';
-      spanElement.textContent = temperature;
+      const tempElement = document.createElement('span');
+      tempElement.id = 'tempValue';
+      tempElement.textContent = temperature;
       
     else {
-      const spanElement = document.createElement('span');
-      spanElement.id = 'speedValue';
-      spanElement.textContent = 'Error, Bad Data';
+      const errorSpeedElement = document.createElement('span');
+      errorSpeedElement.id = 'speedValue';
+      errorSpeedElement.textContent = 'Error, Bad Data';
       
-      const spanElement = document.createElement('span');
-      spanElement.id = 'densityValue';
-      spanElement.textContent = 'Error, Bad Data';
+      const errorDensityElement = document.createElement('span');
+      errorDensityElement.id = 'densityValue';
+      errorDensityElement.textContent = 'Error, Bad Data';
       
-      const spanElement = document.createElement('span');
-      spanElement.id = 'tempValue';
-      spanElement.textContent = 'Error, Bad Data';
+      const errorTempElement = document.createElement('span');
+      errorTempElement.id = 'tempValue';
+      errorTempElement.textContent = 'Error, Bad Data';
       }
     }
   }
@@ -48,10 +48,6 @@ title: Interplanetary Space Weather Data
   getProtonValues();
   setInterval(printProtonValues, 60000);
 </script>
-
-<!-- Example usage of the speed value -->
-<p>The speed is: <span class="speed"></span></p>
-<p>Another instance of speed: <span class="speed"></span></p>
 
 </head>
 <body>
