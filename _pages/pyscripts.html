@@ -25,7 +25,15 @@ title: Python on Browser
 		loadPackages();
 	</script>
 	
-	<py-script src="python/get_proton.py"></py-script>
+	<py-script>
+		import os
+
+		directory = './python'  # Replace with the path to your directory
+		contents = os.listdir(directory)
+
+		for item in contents:
+    		print(item)
+	</py-script>
 	
   </body>
 </html>
