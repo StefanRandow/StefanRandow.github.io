@@ -13,8 +13,7 @@ title: Python on Browser
     <link rel="stylesheet" href="style.css">
   </head>
   
-  <body>
-	<body style="background-color: black;">
+  <body style="background-color: black;">
 	<link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
 	<script defer src="https://pyscript.net/latest/pyscript.js"></script>
 	<script type="text/javascript">
@@ -23,8 +22,22 @@ title: Python on Browser
 			await pyodide.loadPackage('ssl');
 		}
 		loadPackages();
+	
 	</script>
-	<py-script>
+	<style>
+		.container {
+			display: flex;
+			text-align: center;
+		}
+	</style>
+	<center>
+		<h1 style="color:white"> Welcome to My Space Weather Dashboard </h1>
+	</center>
+	<div class="container">
+		<py-script>
+		import shutil
+		import pyodide
+		WIDTH = shutil.get_terminal_size()
 		def get_proton():
 		
 			# Set up the URL for the text file
@@ -51,8 +64,18 @@ title: Python on Browser
 			return s, speed, density, temperature
 
 		s, speed, density, temperature = get_proton()
-		print(f"The Current Error level is {s}, the current solar wind speed is {speed}km/s the current solar wind density is {density}p/cc and the solar wind temperature is currently {temperature}K.")
-	</py-script>
-	
+		
+		wind_speed = str("The current solar wind speed is: " + str(speed) + " km/s")
+		wind_density = str("The current solar wind density is: " + str(density) + " protons/cc")
+		wind_temp = str("The current solar wind temperature is: " + str(temperature) + chr(176) + " K")
+		
+		if s == 0 or s == 1:
+			print(wind_speed.center(270))
+			print(wind_density.center(270))
+			print(wind_temp.center(270))
+		else:
+			print("Current solar wind data is either corrupt, or unavailable, please try again in 1 minute".center(270))
+		</py-script>
+	</div>
   </body>
 </html>
