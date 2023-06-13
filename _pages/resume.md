@@ -5,7 +5,7 @@ permalink: /resume/
 ---
 
  - **IT Project Manager**
-   - [FindLaw | Thomson Reuters](https://legal.thomsonreuters.com/en/findlaw)
+   - [FindLaw at Thomson Reuters](https://legal.thomsonreuters.com/en/findlaw)
    - *Oct 2021 - Oct 2022*
    - Managed a cross-functional team in order to organize, prioritize, develop, and deliver a portfolio of 25
     monthly Digital Marketing Projects including: Pay Per Click Advertising, Web-Page Development,
