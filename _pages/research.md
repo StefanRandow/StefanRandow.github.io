@@ -4,8 +4,8 @@ title: Undergraduate Research Experience
 permalink: /research/
 ---
 
-- Binary Black Hole Mergers & and Gravitatrional Wave Quasi Normal Modes\
-- 
+- Binary Black Hole Mergers & and Gravitatrional Wave Quasi Normal Modes  
+<br> 
 	- I am currently doing undergraduate research on Binary Black Hole Mergers, specifically in Gravitational Wave Quasinormal Modes:
 	- When binary black hole systems merge, they warp the surroudning spacetime, which results in the emission of gravitational waves.
 	- Immediately after the merger, the new black hole continues to vibrate the surrounding spacetime, however, these vibrations have a ring-down (they decay over time). This dampened vibration is modeled 	by the equation:
