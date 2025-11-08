@@ -4,9 +4,10 @@ title: Research Experience
 permalink: /research/
 ---
 
-### Binary Black Hole Mergers & Gravitational Wave Quasi-Normal Modes
+### Theoretical Physics in the field of Gravitational Wave Spectroscopy
 
-- I am currently part of a research team focused on Gravitational Wave Quasi-Normal Modes.
-- Our latest paper investigates the stability of the fundamental mode of compact objects under perturbed conditions.
-- My first paper as a contributing author is now available on [arXiv](https://arxiv.org/abs/2409.17026).
-- We are working on another paper examining the strange behavior of unstable ringdowns and the effects on extracting data from experimental observations at facilities such as LIGO and LISA.
+- Since June 2023 I have been a researcher on an interdisciplinary team studying gravitational wave ringdowns of black holes.
+- We primarily study the Quasinormal Mode (QNM) spectra of black holes under different models of gravitational potentials and spacetimes, primarily concerning instability due to perturbative effects.
+- In my [first paper](https://doi.org/10.1103/r16b-7f4v) with this group, we derive a closed form analytical approximation that nicely models how the spectra changes with respect to perturbations. This is done for a toy model.
+- In my [second paper](https://doi.org/10.1103/r16b-7f4v) with this group, we generalize the arguments in the first paper, and show that it works for a more general class of continuous gravitational potentials.
+- We have another upcoming paper as well. I will link the arxiv for this paper when it is available on preprint.
