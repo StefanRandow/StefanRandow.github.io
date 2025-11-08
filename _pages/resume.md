@@ -6,6 +6,17 @@ permalink: /resume/
 
 ## Work Experience
 
+### Mathematics Graduate Teaching Assistant
+- [UMN Duluth Math Department](https://scse.d.umn.edu/departments-and-programs/mathematics-statistics-department/math-graduate-program/assistantships)
+- *Jan 2026 - Dec 2028*
+- Graduate teaching assistant responsibilities include:
+  - Small group discussion leaders
+  - Computer lab assistants
+  - Exam or quiz graders
+  - Study section facilitators
+  - Teaching their own courses
+
+
 ### Chemical Biological Radiological & Nuclear Defence Officer
 - [MN Army National Guard](https://www.goarmy.com/careers-and-jobs/career-match/ground-forces/explosives-artillery/74a-cbrn-officer.html)
 - *Aug 2023 - Current*
@@ -18,7 +29,7 @@ permalink: /resume/
 ### Undergraduate Research Assistant
 - [Metropolitan State University](https://www.metrostate.edu)
 - *August 2023 - Current*
-- Undergraduate student researcher in Black Hole Harmonics, funded by the Jason Carter research scholarship.
+- Research assistant on interdisciplinary team studying gravitational wave spectroscopy.
 
 ### Peer Mathematics Tutor
 - [Metropolitan State University](https://www.metrostate.edu)
@@ -30,9 +41,13 @@ permalink: /resume/
 
 ## Education
 
-### [Metropolitan State University](https://www.metrostate.edu)
-- *Aug 2021 - Current*
-- BA: Mathematics, Physics Minor, 3.5 GPA
+### [University of Minnesota Duluth](https://academics.d.umn.edu/mathematical-sciences-ms)
+- *Jan 2026 - Dec 2028*
+- MS: Mathematical Sciences, Physics Minor
+
+### [Metropolitan State University](https://www.metrostate.edu/academics/programs/mathematics-ba)
+- *Aug 2021 - May 2024*
+- BA: Mathematics, Physics Minor, 3.65 GPA
 - Member of Kappa Mu Epsilon, the Mathematical Honor Society.
 
 ### [Officer Candidate School](https://www.goarmy.com/careers-and-jobs/find-your-path/army-officers/ocs.html)
@@ -40,6 +55,12 @@ permalink: /resume/
 - Commissioned as a 74A CBRN Officer.
 - Minnesota Army National Guard State OCS Class 67.
 
-## Publications
+### [Basic Officer Leaders Course](https://home.army.mil/wood/units-tenants/USACBRNS/Courses/BOLC)
+- Fundamentals of Chemical/Biological/Radiological/Nuclear (CBRN) Warfare
+- Fundamentals of Reconaissance & Decontamination in contaminated environements
+- US Army Radiation Safety Course, Level 2
+- Operations & Adminstration
 
-- [On the Universality of the Fundamental Mode](https://arxiv.org/abs/2409.17026): Currently available on arxiv, submitted to Phys Rev. D.
+## Publications
+- [Universality of Instability in the Fundamental Mode of Black Holes](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.024047), Physical Review D
+- [Evolution of Black Hole Echo Modes and the Causality Dilemma](https://journals.aps.org/prd/abstract/10.1103/r16b-7f4v), Physical Review D
